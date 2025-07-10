@@ -41,7 +41,7 @@ x_d_vals, y_d_vals, dx_d, dy_d, ddx_d, ddy_d = generar_trayectoria()
 
 # Estado inicial
 x, y, theta = x_d_vals[0], y_d_vals[0], np.arctan2(dy_d[0], dx_d[0])
-# Empieza en una posición randomizada cerca del inicio de la trayectoria, pero bastante lejoides bro
+# Empieza en una posición randomizada cerca del inicio de la trayectoria
 x = x + np.random.uniform(-0.5, 0.5)
 y = y + np.random.uniform(-0.5, 0.5)
 encoder_left = 0
