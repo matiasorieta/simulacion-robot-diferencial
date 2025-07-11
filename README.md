@@ -3,7 +3,6 @@
 
 Este proyecto implementa un simulador de robot móvil diferencial capaz de seguir trayectorias circulares u ovaladas. Utiliza un controlador PD para la orientación y un controlador proporcional para corregir el error lateral. El simulador incluye sensores virtuales, como encoders y un LIDAR 2D de bajo costo, y permite evaluar el comportamiento del robot ante distintas perturbaciones físicas.
 
-
 ## Requisitos
 
 
