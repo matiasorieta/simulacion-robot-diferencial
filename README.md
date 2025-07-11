@@ -27,7 +27,7 @@ Desde la terminal, navega a la carpeta del proyecto y ejecuta:
 
 
 ```bash
-python control.py
+python simulacion.py
 ```
 
 
